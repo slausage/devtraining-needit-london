@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Insert a record into 'x_58872_needit_needit' with the following values:
+When needed = 2019-03-08 15:24:47
+and Requested for = {{Step 1: Impersonate.User}}
+and Requested for email = {{Step 1: Impersonate.User.Email}}
+and Request type = Legal
+and What needed = Legal 1
+Confirm the record was not inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <order>2</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>453097</sys_created_by>
+        <sys_created_on>2019-03-11 19:17:55</sys_created_on>
+        <sys_id>73349b72db043300df2b9444ca96190a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_73349b72db043300df2b9444ca96190a</sys_update_name>
+        <sys_updated_by>453097</sys_updated_by>
+        <sys_updated_on>2019-03-11 19:24:47</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <test display_value="When needed - Past">bb349b72db043300df2b9444ca961904</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=73349b72db043300df2b9444ca96190a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>73349b72db043300df2b9444ca96190a</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>453097</sys_created_by>
+        <sys_created_on>2019-03-11 19:17:55</sys_created_on>
+        <sys_id>3734df72db043300df2b9444ca961996</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>453097</sys_updated_by>
+        <sys_updated_on>2019-03-11 19:18:18</sys_updated_on>
+        <value>u_when_needed=javascript:gs.daysAgo(3)^u_requested_for={{step['ff349b72db043300df2b9444ca961906'].user}}^u_requested_for_email={{step['ff349b72db043300df2b9444ca961906'].user.email}}^u_request_type=legal^u_what_needed=legal1^EQ</value>
+        <variable display_value="">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>73349b72db043300df2b9444ca96190a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>453097</sys_created_by>
+        <sys_created_on>2019-03-11 19:17:55</sys_created_on>
+        <sys_id>7334df72db043300df2b9444ca961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>453097</sys_updated_by>
+        <sys_updated_on>2019-03-11 19:17:55</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>73349b72db043300df2b9444ca96190a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>453097</sys_created_by>
+        <sys_created_on>2019-03-11 19:17:55</sys_created_on>
+        <sys_id>bf34df72db043300df2b9444ca961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>453097</sys_updated_by>
+        <sys_updated_on>2019-03-11 19:17:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>73349b72db043300df2b9444ca96190a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>453097</sys_created_by>
+        <sys_created_on>2019-03-11 19:17:55</sys_created_on>
+        <sys_id>fb34df72db043300df2b9444ca961995</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>453097</sys_updated_by>
+        <sys_updated_on>2019-03-11 19:24:32</sys_updated_on>
+        <value>record_not_inserted</value>
+        <variable display_value="">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=73349b72db043300df2b9444ca96190a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>73349b72db043300df2b9444ca96190a</id>
+        <sys_created_by>453097</sys_created_by>
+        <sys_created_on>2019-03-11 19:18:54</sys_created_on>
+        <sys_id>8a74d3b2db043300df2b9444ca961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>453097</sys_updated_by>
+        <sys_updated_on>2019-03-11 19:18:54</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>73349b72db043300df2b9444ca96190a</id>
+        <sys_created_by>453097</sys_created_by>
+        <sys_created_on>2019-03-11 19:17:55</sys_created_on>
+        <sys_id>3b34df72db043300df2b9444ca961996</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>453097</sys_updated_by>
+        <sys_updated_on>2019-03-11 19:18:18</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>u_when_needed=javascript:gs.daysAgo(3)^u_requested_for={{step['ff349b72db043300df2b9444ca961906'].user}}^u_requested_for_email={{step['ff349b72db043300df2b9444ca961906'].user.email}}^u_request_type=legal^u_what_needed=legal1^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>73349b72db043300df2b9444ca96190a</id>
+        <sys_created_by>453097</sys_created_by>
+        <sys_created_on>2019-03-11 19:18:54</sys_created_on>
+        <sys_id>4e74d3b2db043300df2b9444ca961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>453097</sys_updated_by>
+        <sys_updated_on>2019-03-11 19:18:54</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
